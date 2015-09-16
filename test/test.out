@@ -1,0 +1,7 @@
+foo
+Traceback (most recent call last):
+  File "/home/snackattack/anaconda/lib/python2.7/site-packages/redirect_stdout2/__init__.py", line 12, in redirect_stdout
+    yield
+  File "test.py", line 7, in <module>
+    raise Exception("bar")
+Exception: bar
